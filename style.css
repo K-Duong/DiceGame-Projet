@@ -1,0 +1,150 @@
+body {
+  font-family: cursive;
+  background: linear-gradient(to top left, #15bf78 0%, #50320d 100%);
+  height: 100vh;
+}
+
+.layout-bas {
+  background-color: #68b171;
+  position: relative;
+  width: 60vw;
+  height: 70vh;
+  margin-left: 20vw;
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5rem;
+}
+
+.layout-haut {
+  position: absolute;
+  top: 0;
+  width: 60vw;
+  height: 80vh;
+  margin-top: 10vh;
+  margin-left: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*JOUEUR ACTIF*/
+.joueurs.joueur-actif {
+  background-color: #8cd795;
+  height: 74vh;
+  margin-top: -2vh;
+  margin-bottom: -2vh;
+  opacity: 1;
+}
+
+.joueurs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: lighter;
+  color: rgb(6 24 1 / 85%);
+  opacity: 0.6;
+}
+
+.joueurs.joueur-0 {
+  border-top-left-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+}
+
+.joueurs.joueur-1 {
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+/*JOUEUR GAGNANT*/
+.joueurs.gagnant {
+  /*display: none;*/
+  background-color: #002000;
+  color: white;
+  height: 74vh;
+  margin-top: -2vh;
+  margin-bottom: -2vh;
+  opacity: 1;
+}
+
+h1 {
+  font-size: 4.7em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+.box-score-actuel {
+  color: white;
+  background-color: #0e5839;
+  width: 15vw;
+  height: 15vh;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dice-image {
+  width: 10vw;
+  border-radius: 10px;
+}
+
+.btns {
+  font-family: cursive;
+
+  position: absolute;
+  border-radius: 10px;
+}
+
+.btn-regle {
+  position: absolute;
+  top: 7vh;
+}
+.btn-nouveau-jeu {
+  top: 15vh;
+}
+.btn-lancer {
+  top: 53vh;
+}
+.btn-garder {
+  bottom: 14vh;
+}
+.btn-close {
+  position: absolute;
+  margin-left: 34vw;
+  margin-top: -3vh;
+}
+p {
+  margin-bottom: 0em;
+  margin-top: 0em;
+  font-size: 1.5em;
+}
+
+/*MODAL BOUTON REGLE DU JEU*/
+.modal-explication {
+  display: none;
+  position: absolute;
+  top: 25%;
+  width: 40vw;
+  margin-left: 30vw;
+  padding: 5vh;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
