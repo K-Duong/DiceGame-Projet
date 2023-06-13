@@ -1,4 +1,4 @@
-#Dice-game-Projet
+# Dice-game-Projet
 
 Le projet "Dice game" est une application d'un simple jeu de lancer le dé entre les 2 joueurs.
 Vous trouvez ainsi les deux outils suivants sur la procédure de l'élaboration de cette application :
