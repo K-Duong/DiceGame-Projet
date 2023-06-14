@@ -10,6 +10,6 @@ Tous les documents du projet sont téléchargeables sur [gitHub](https://github.
 
 Pour jouer le jeu en ligne, cliquez sur [jouer](https://dice-game-duongtrinh.netlify.app).
 
-Toutes les explications du projets se trouvent [ici](https://www.youtube.com/watch?v=KnN3uQPZRlo).
+Toutes les explications du projets en vidéo se trouvent [ici](https://www.youtube.com/watch?v=KnN3uQPZRlo).
 
 Bon jeu !
